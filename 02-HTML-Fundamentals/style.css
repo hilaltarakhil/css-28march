@@ -3,9 +3,11 @@
   margin: 0px;
   padding: 0px;
 }
+
 nav {
   font-size: 18px;
 }
+
 article {
   margin-bottom: 60px;
 }
@@ -14,6 +16,8 @@ body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #1098a1;
+
+  position: relative;
 }
 
 .container {
@@ -21,6 +25,7 @@ body {
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
+  /* position: relative; */
 }
 
 .main-header {
@@ -192,6 +197,43 @@ nav a:link {
 
 nav a:link:last-child {
   margin-right: 0px;
+}
+button {
+  font-size: 22px;
+  padding: 30px;
+  cursor: pointer;
+
+  position: absolute;
+  /* top: 50px;
+  left: 50px; */
+  bottom: 50px;
+  right: 50px;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h3 + p::first-line {
+  /* color: red */
+}
+
+h2 {
+  /* background-color: orange; */
+  position: relative;
+}
+h2::beforeo;p/i {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  right: -25px;
 }
 
 /* LVHA */
