@@ -6,6 +6,7 @@
 
 nav {
   font-size: 18px;
+  text-align: center;
 }
 
 article {
@@ -193,6 +194,7 @@ nav a:link {
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
+
 }
 
 nav a:link:last-child {
@@ -257,3 +259,12 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+.author-img {
+  float: left;
+}
+
+.author {
+ float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
