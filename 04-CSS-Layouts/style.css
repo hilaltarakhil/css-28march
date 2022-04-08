@@ -266,10 +266,10 @@ nav p {
   font-size: 18px;
 } */
 
-/* .main-header {
+   /* .main-header{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 .post-header {
   display: flex;
@@ -306,7 +306,8 @@ nav p {
   font-size: 14px;
   font-weight: normal;
   font-style: italic;
-} */
+  
+} 
 
 .row {
   display: flex;
